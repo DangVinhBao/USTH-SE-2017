@@ -36,10 +36,8 @@ export class PopUpComponent implements OnInit {
 
 	setPopUp = function(popup: Popup) {
         return {    
-			top : popup.top + '%',
-			left: popup.left + '%',
-			height: popup.height + 'px',
-			width: popup.width + 'px',
+					top : popup.top + '%',
+					left: popup.left + '%',
         }
 	};
 }

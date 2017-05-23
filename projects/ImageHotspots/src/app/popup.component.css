@@ -1,4 +1,11 @@
 .popup {
-  position: fixed;
+  position: absolute;
   background-color: #ffcccc;
+  width: auto;
+  height: auto;
+  padding: 30px 100px 30px 100px;
+}
+
+h1 {
+  text-align: center;
 }

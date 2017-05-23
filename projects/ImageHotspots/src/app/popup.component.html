@@ -1,7 +1,7 @@
 <div>
   <template ngFor let-popup [ngForOf]="popups">
     <div *ngIf="popup.id == hotspotID" class="popup" [ngStyle]="setPopUp(popup)">
-      <p>{{popup.content}}</p>
+      <h1>{{popup.content}}</h1>
       <a target="_blank" href={{popup.link}}>Read more</a>
     </div>
   </template>
